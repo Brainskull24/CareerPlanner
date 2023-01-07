@@ -1,14 +1,15 @@
 <!DOCTYPE html>
-<html lang="en">
-
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>CAREER GUIDANCE</title>
   <link rel="stylesheet" href="style.css" />
   <link rel="stylesheet" href="utility.css">
   <link rel="stylesheet" href="slider.css">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+  <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+/>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -18,21 +19,39 @@
 
 <body>
 
-  <nav class="navbar h-nav" id="nav">
+  <nav>
     <div class="nav-list v-class" id="nav-elem">
-      <li><a href="home.html">HOME</a></li>
-      <li><a href="#">CAREER OPTIONS</a></li>
-      <li><a href="#">GOVT EXAMS</a></li>
-      <li><a href="#">CHECK JOBS</a></li>
+      <ul>
+        <li><a class="active" href="home.html">HOME</a></li>
+        <li>
+          <a href="#">CAREER OPTIONS<i class="fa fa-caret-down" aria-hidden="true"></i></a>
+          <ul>
+            <li><a href="#">Python</a></li>
+            <li><a href="#">JQuery</a></li>
+            <li><a href="#">Javascript</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#">GOVT EXAMS<i class="fa fa-caret-down" aria-hidden="true"></i></a>
+          <ul>
+            <li><a href="#">Python</a></li>
+            <li><a href="#">JQuery</a></li>
+            <li><a href="#">Javascript</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#">CHECK JOBS<i class="fa fa-caret-down" aria-hidden="true"></i></a>
+          <ul>
+            <li><a href="#">Python</a></li>
+            <li><a href="#">JQuery</a></li>
+            <li><a href="#">Javascript</a></li>
+          </ul>
+        </li>
+      </ul>
     </div>
     <div class="right-nav-btn v-class" id="nav-btn">
-      <li><a href="contact.html" id="nav-btn1">CONTACT US</a></li>
-      <li><a href="about.html" id="nav-btn2">ABOUT US</a></li>
-    </div>
-    <div class="burger">
-      <div class="line"></div>
-      <div class="line"></div>
-      <div class="line"></div>
+      <li><a href="contact.html">CONTACT US</a></li>
+      <li><a href="about.html">ABOUT US</a></li>
     </div>
   </nav>
   <!-- nav bar ends   -->
@@ -45,9 +64,9 @@
   <div class="container">
     <div class="swiper">
       <div class="swiper-wrapper">
-        <div class="swiper-slide"><img src="Images/tree-736885__480.jpg" alt="loading"></div>
-        <div class="swiper-slide"><img src="Images/tree-736885__480.jpg" alt=""></div>
-        <div class="swiper-slide"><img src="Images/tree-736885__480.jpg" alt=""></div>
+        <div class="swiper-slide"><img src="nature-images.jpg" alt="loading"></div>
+        <div class="swiper-slide"><img src="" alt=""></div>
+        <div class="swiper-slide"><img src="nature-images.jpg" alt=""></div>
       </div>
       <div class="swiper-pagination"></div>
       <div class="swiper-button-prev"></div>
@@ -270,7 +289,7 @@
       <i class="fa fa-university" aria-hidden="true"></i>
       <i class="fa fa-snapchat-ghost" aria-hidden="true"></i>
     </div>
-      
+      
   </section>
   <!-- Footer End -->
   <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
