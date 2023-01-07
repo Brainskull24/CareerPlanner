@@ -1,3 +1,26 @@
+
+const self = document.querySelector(".self-emp-btn");
+const job = document.querySelector(".job-btn");
+const move = document.querySelector(".mov-btn");
+const jobcont = document.querySelector("#job-cont");
+const selfcont = document.querySelector("#self-emp-cont");
+
+console.log(self, job);
+self.addEventListener("click", () => {
+  console.log("done");
+  move.classList.add("moveright");
+  move.innerHTML = "Being Self Employed";
+  console.log(selfcont);
+  selfcont.classList.add("self-emp");
+  jobcont.classList.remove("job");
+});
+job.addEventListener("click", () => {
+  console.log("done 2");
+  move.classList.remove("moveright");
+  move.innerHTML = "Best Paying Jobs ";
+  selfcont.classList.remove("self-emp");
+  jobcont.classList.add("job");
+});
 burger = document.querySelector('.burger');
 navbar = document.querySelector('.navbar');
 navList = document.querySelector('.nav-list');
@@ -24,27 +47,5 @@ const swiper = new Swiper('.swiper', {
         nextEl: '.swiper-button-next',
         prevEl: '.swiper-button-prev',
       },
-});
-const self = document.querySelector(".self-emp-btn");
-const job = document.querySelector(".job-btn");
-const move = document.querySelector(".mov-btn");
-const jobcont = document.querySelector("#job-cont");
-const selfcont = document.querySelector("#self-emp-cont");
-
-console.log(self, job);
-self.addEventListener("click", () => {
-  console.log("done");
-  move.classList.add("moveright");
-  move.innerHTML = "Being Self Employed";
-  console.log(selfcont);
-  selfcont.classList.add("self-emp");
-  jobcont.classList.remove("job");
-});
-job.addEventListener("click", () => {
-  console.log("done 2");
-  move.classList.remove("moveright");
-  move.innerHTML = "Best Paying Jobs ";
-  selfcont.classList.remove("self-emp");
-  jobcont.classList.add("job");
 });
 // const sigup = document.getElementsBy
