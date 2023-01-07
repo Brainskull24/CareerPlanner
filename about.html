@@ -1,30 +1,47 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir="ltr">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <title>CAREER GUIDANCE</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
     <title>Career Guidance</title>
   </head>
   <body>
-    <nav class="navbar h-nav" id="nav">
-      <div class="nav-list v-class" id = "nav-elem">
-        <li><a href = "home.html">HOME</a></li>
-        <li><a href = "#">CAREER OPTIONS</a></li>
-        <li><a href = "#">GOVT EXAMS</a></li>
-        <li><a href = "#" >CHECK JOBS</a></li>
+    <nav>
+      <div class="nav-list v-class" id="nav-elem">
+        <ul>
+          <li><a class="active" href="home.html">HOME</a></li>
+          <li>
+            <a>CAREER OPTIONS<i class="fa fa-caret-down" aria-hidden="true"></i></a>
+            <ul>
+              <li><a href="#">Python</a></li>
+              <li><a href="#">JQuery</a></li>
+              <li><a href="#">Javascript</a></li>
+            </ul>
+          </li>
+          <li>
+            <a>GOVT EXAMS<i class="fa fa-caret-down" aria-hidden="true"></i></a>
+            <ul>
+              <li><a href="#">Python</a></li>
+              <li><a href="#">JQuery</a></li>
+              <li><a href="#">Javascript</a></li>
+            </ul>
+          </li>
+          <li>
+            <a>CHECK JOBS<i class="fa fa-caret-down" aria-hidden="true"></i></a>
+            <ul>
+              <li><a href="#">Python</a></li>
+              <li><a href="#">JQuery</a></li>
+              <li><a href="#">Javascript</a></li>
+            </ul>
+          </li>
+        </ul>
       </div>
-      <div class="right-nav-btn v-class" id = "nav-btn">  
-        <li><a href = "contact.html" id = "nav-btn1">CONTACT US</a></li> 
-        <li><a href = "about.html" id = "nav-btn2">ABOUT US</a></li> 
-      </div>
-      <div class="burger">
-        <div class="line"></div>
-        <div class="line"></div>
-        <div class="line"></div>
+      <div class="right-nav-btn v-class" id="nav-btn">
+        <li><a href="contact.html">CONTACT US</a></li>
+        <li><a href="about.html">ABOUT US</a></li>
       </div>
     </nav>
 <section class="about-head">
@@ -93,7 +110,7 @@ Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus esse totam per
               <i class="fa fa-university" aria-hidden="true"></i>
               <i class="fa fa-snapchat-ghost" aria-hidden="true"></i>
             </div>
-          </section>
+          </section>
 <script>
 burger = document.querySelector('.burger');
 navbar = document.querySelector('.navbar');
