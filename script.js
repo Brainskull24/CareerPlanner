@@ -48,4 +48,5 @@ const swiper = new Swiper('.swiper', {
         prevEl: '.swiper-button-prev',
       },
 });
+console.log("hello")
 // const sigup = document.getElementsBy
