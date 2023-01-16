@@ -680,3 +680,85 @@ h1 {
 
 /* -------------- */
 /* Designing 10th.html */
+
+.read-more{
+  display: flex;
+  width: 90vw;
+  margin: auto;
+  margin-top: 4rem;
+  justify-content: space-between;
+}
+.read-item{
+}
+.read-left{
+  flex-basis: 56%;
+  text-align: center;
+  
+}
+.read-right{
+  flex-basis: 44%;
+  border: 2px solid black;
+}
+.read-left img{
+  border: 2px solid black;
+
+}
+.read-item img{
+  width: 80%;
+  margin: auto;
+  padding: 12px;
+  margin-bottom: 32px;
+}
+.read-head{
+  text-align: center;
+  font-weight: 800;
+  font-size: 2rem;
+  text-transform: capitalize;
+  padding: 12px;
+  line-height: 43px;
+}
+.read-content{
+  padding: 33px;
+  font-size: 1.2rem;
+  line-height: 27px;
+  text-align: left;
+}
+.read-right{
+  display: flex;
+  flex-direction: column;
+  gap: 19px;
+  padding: 12px;
+}
+.read-label{
+ 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 12px;
+  }
+
+.label-left{
+  flex-basis: 25%;
+}
+.label-left img{
+  width: 100%;
+}
+.label-right{
+flex-basis:75%;
+padding: 12px 2px;
+}
+.label-right h2{
+  text-transform: capitalize;
+  margin-bottom: 12px;
+}
+.label-right p{
+  line-height: 19px; 
+}
+.label-right h2{
+  cursor: pointer;
+  text-decoration: underline;
+  transition: all .3s;
+}
+.label-right h2:hover{
+  color: orangered;
+}
