@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+ <meta charset="utf-8" />
+ <title>CAREER GUIDANCE</title>
+ <link rel="stylesheet" href="style.css" />
+ <link rel="stylesheet" href="utility.css">
+ <link rel="stylesheet" href="slider.css">
+ <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+ <link rel="stylesheet" href="carrerOptions.css">
+ <link rel="stylesheet" href="style.css">
+ <title>CareerOptions After 10</title>
+</head>
+
+<body>
+  <!-- navbar starts -->
+  <nav>
+    <div class="nav-list v-class" id="nav-elem">
+      <ul>
+        <li><a class="active" href="home.html">Home</a></li>
+        <li><a href="tenth.html">After 10th</a></li>
+        <li><a href="twelve.html">After 12th</a></li>
+        <li><a href="graduate.html">After Graduation</a></li>
+        <li><a href="#">Govt Exams</a></li>
+        <li><a href="#">Check Jobs</a></li>
+        <li><a href="contact.html">Contact us</a></li>
+        <li><a href="about.html">About us</a></li>
+      </ul>
+    </div>
+  </nav>
+ <!-- nav bar ends   -->
+
+ <!-- progress bar -->
+ <section>
+  <div class="progress-container">
+   <div class="progress-bar" id="mybar"></div>
+  </div>
+ </section>
+<!-- progress bar -->
+<div class="head-cont">
+  <h1>SCIENCE NON-MEDICAL</h1>
+  <p>There are different career options for you after you complete your 10th grade. Given below
+    are the different streams you can choose as per to continue with your higher studies
+    and different government exams you can prepare for and different jobs you can do.. </p>
+</div>
+<section class="read-more">
+  <div class="read-left read-item">
+   <img src="images/growth.jpg" alt="loading">
+   <h2 class="read-head" id="read-head"></h2>
+   <p class="read-content" id="read_content">
+   </p>
+  </div>
+  <div class="read-right read-item">
+   <div class="read-label">
+    <div class="label-left">
+     <img src="images/feedback.jpg" alt="">
+    </div>
+    <div class="label-right">
+     <h2 id="0" class="heads">Engineering Courses</h2>
+     <p></p>
+    </div>
+   </div>
+   <div class="read-label">
+    <div class="label-left">
+     <img src="images/feedback.jpg" alt="">
+    </div>
+    <div class="label-right">
+     <h2 id="1" class="heads">Architecture Courses</h2>
+    </div>
+   </div>
+   <div class="read-label">
+    <div class="label-left">
+     <img src="images/feedback.jpg" alt="">
+    </div>
+    <div class="label-right">
+     <h2 id="2" class="heads">Hotel Management Courses</h2>
+    </div>
+   </div>
+   <div class="read-label">
+    <div class="label-left">
+     <img src="images/feedback.jpg" alt="">
+    </div>
+    <div class="label-right">
+     <h2 id="3" class="heads">Economics Courses</h2>
+    </div>
+   </div>
+   <div class="read-label">
+    <div class="label-left">
+     <img src="images/feedback.jpg" alt="">
+    </div>
+    <div class="label-right">
+     <h2 id="4" class="heads">Defence Services</h2>
+    </div>
+   </div>
+   <div class="read-label">
+    <div class="label-left">
+     <img src="images/feedback.jpg" alt="">
+    </div>
+    <div class="label-right">
+     <h2 id="5" class="heads">Educational & Teaching Courses</h2>
+    </div>
+   </div>
+   <div class="read-label">
+    <div class="label-left">
+     <img src="images/feedback.jpg" alt="">
+    </div>
+    <div class="label-right">
+     <h2 id="6" class="heads">Business Administration Courses</h2>
+    </div>
+   </div>
+   <!--  
+   <div class="read-label">
+    <div class="label-left">
+     <img src="images/feedback.jpg" alt="">
+    </div>
+    <div class="label-right">
+     <h2 id="7" class="heads">heading 7</h2>
+    </div>
+   </div>
+   <div class="read-label">
+    <div class="label-left">
+     <img src="images/feedback.jpg" alt="">
+    </div>
+    <div class="label-right">
+     <h2 id="8" class="heads">heading 8 </h2>
+    </div>
+   </div>
+   <div class="read-label">
+    <div class="label-left">
+     <img src="images/feedback.jpg" alt="">
+    </div>
+    <div class="label-right">
+     <h2 id="9" class="heads">heading 9</h2>
+    </div>
+   </div> -->
+  </div>
+ </section>
+
+ <!-- footer start  -->
+ <section class="footer">
+  <div class="p">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis nemo ex dolore perferendis a
+   recusand</div>
+  <div class="icons">
+   <i class="fa fa-facebook"></i>
+
+   <i class="fa fa-instagram" aria-hidden="true"></i>
+   <i class="fa fa-twitter" aria-hidden="true"></i>
+   <i class="fa fa-university" aria-hidden="true"></i>
+   <i class="fa fa-snapchat-ghost" aria-hidden="true"></i>
+  </div>
+ </section>
+ <!-- Footer End -->
+ <script>
+  window.onscroll = function () { myFunction() };
+  function myFunction() {
+   var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+   var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+   var scrolled = (winScroll / height) * 100;
+   document.getElementById("mybar").style.width = scrolled + "%";
+  }
+
+content = ["content 0", "content 1", "content 2","content 3","content 4","content 5","content 6","content 7","content 8","content 9"]
+index =0 ; 
+ main_head = document.getElementById("read-head");
+ main_content =   document.getElementById("read_content");
+ console.log(main_head); 
+heads = document.getElementsByClassName("heads"); 
+console.log(heads);
+main_content.innerText= content[index] +
+`Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum fugit voluptatem molestiae reiciendis sequi quae aut
+    iste odio, amet aspernatur ipsa obcaecati earum consequuntur, quis beatae itaque reprehenderit natus dolore. Lorem
+    ipsum dolor sit amet consectetur adipisicing elit. Vero ducimus laborum eaque assumenda fugit vitae nam est mollitia
+    qui. Autem neque soluta assumenda repellendus natus et incidunt amet dicta quam! Lorem ipsum dolor sit amet
+    consectetur adipisicing elit. Sequi fugiat esse placeat temporibus explicabo laboriosam, aperiam nostrum at
+    consequatur tempore corporis asperiores similique, aspernatur, incidunt amet in culpa assumenda voluptatem?
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius reprehenderit odio ab, inventore officia autem
+    explicabo iusto voluptates corporis quae maiores, nihil eum illo blanditiis tempore? Doloribus eum voluptas est.
+    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam facere cumque debitis qui ratione natus laudantium
+    sed, laboriosam numquam dicta aliquid accusamus quod perferendis est optio? Expedita eaque odit a`; 
+    main_head.innerText = document.getElementById("0").innerText; 
+Array.from(heads).forEach((e)=>{
+ e.addEventListener("click",(e)=>{
+  console.log(e.target.id)
+  main_head.innerText = e.target.innerText; 
+  index = parseInt(e.target.id); 
+  main_content.innerText= content[index] +
+`Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum fugit voluptatem molestiae reiciendis sequi quae aut
+    iste odio, amet aspernatur ipsa obcaecati earum consequuntur, quis beatae itaque reprehenderit natus dolore. Lorem
+    ipsum dolor sit amet consectetur adipisicing elit. Vero ducimus laborum eaque assumenda fugit vitae nam est mollitia
+    qui. Autem neque soluta assumenda repellendus natus et incidunt amet dicta quam! Lorem ipsum dolor sit amet
+    consectetur adipisicing elit. Sequi fugiat esse placeat temporibus explicabo laboriosam, aperiam nostrum at
+    consequatur tempore corporis asperiores similique, aspernatur, incidunt amet in culpa assumenda voluptatem?
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius reprehenderit odio ab, inventore officia autem
+    explicabo iusto voluptates corporis quae maiores, nihil eum illo blanditiis tempore? Doloribus eum voluptas est.
+    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam facere cumque debitis qui ratione natus laudantium
+    sed, laboriosam numquam dicta aliquid accusamus quod perferendis est optio? Expedita eaque odit a`; 
+   })
+})
+ </script>
+</body>
+
+</html>
