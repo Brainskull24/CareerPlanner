@@ -755,3 +755,74 @@ padding: 12px 2px;
 .label-right h2:hover{
   color: orangered;
 }
+/* -Styling govt exams page -   */
+.exam-cont{
+
+}
+.exam-cont h2{
+  margin: 19px;
+  padding: 19px;
+  margin-top: 12px;
+  font-size: 48px;
+  font-weight: 700;
+  font-family: sans-serif;
+  padding: 19px;
+  text-align: center;
+}
+.exam-cont-items{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  /* align-items: center; */
+  border-radius: 13px;
+  /* width: 90vw; */
+  margin: auto;
+ padding: 19px;
+ gap: 4px;
+ background-color: #fef8ed;
+ 
+}
+.exam-item{
+  /* border: 2px solid red; */
+  flex-basis: 22%;
+  padding: 12px;
+  padding: 13px;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
+  align-items: center;
+  gap: 13px;
+  margin-bottom: 13px;
+  cursor: pointer;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  border-radius: 19px;
+  background-color: white;
+  transition: all .4s ;
+}
+.exam-item:hover{
+  background-color: #fef8ed;
+}
+.exam-item img{
+  width: 60%;
+}
+
+
+.exam-info h2{
+  padding: 19px;
+  margin-top:1em;
+  font-size: 48px;
+  font-weight: 700;
+  font-family: sans-serif;
+  padding: 0px 35px;
+  word-break: normal;
+}
+.exam-info p {
+  padding:  18px 39px;
+  line-height: 1.5em ;
+  /* width: 60vw; */
+}
+.exam-info{
+  background-color: #fef8ed;
+  padding: 18px ;
+  margin-bottom:2em;
+}
