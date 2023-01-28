@@ -1,4 +1,3 @@
-
 var typed = new Typed(".typing",
 {
   strings: ["you tuber", "developer", "designer", "freelencer"],
@@ -6,6 +5,7 @@ var typed = new Typed(".typing",
   backSpeed: 120,
   loop: true
 });
+
 window.onscroll = function () { myFunction() };
 function myFunction() {
 var winScroll = document.body.scrollTop || document.documentElement.scrollTop;

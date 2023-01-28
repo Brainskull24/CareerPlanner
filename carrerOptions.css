@@ -14,15 +14,27 @@ margin-top: 4rem;
 .head-cont h1 {
  line-height: 3rem;
  font-weight: 800;
- font-size: 3rem;
+ font-size: xx-large;
 }
 
 .head-cont p {
- text-align: left;
- width: 50vw;
- padding: 20px;
- margin: auto;
- line-height: 20px;
+    text-align: center;
+    width: 50vw;
+    padding: 20px;
+    margin: auto;
+    line-height: 20px;
+    font-size: larger;
+}
+
+.streamflow{
+    display: flex;
+    margin: 10px;
+    justify-content: center;
+}
+
+.streamflow img{
+    height: 30em;
+    width: 40em;
 }
 
 .opt-cont {
@@ -90,7 +102,15 @@ margin-top: 4rem;
     background-color: aqua;
     width: 97vw;
     margin: auto;
-    height: 450px;
+    height: 500px;
+}
+
+.gridss h3{
+    height: 50px;
+    text-align: center;
+    font-size: 30px;
+    align-items: center;
+    padding: 12px;
 }
 
 .gridsss1{

@@ -1,4 +1,3 @@
-
 const self = document.querySelector(".self-emp-btn");
 const job = document.querySelector(".job-btn");
 const move = document.querySelector(".mov-btn");
